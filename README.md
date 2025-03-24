@@ -27,12 +27,12 @@ To use this recipe extraction agent, you'll need to follow these steps:
     ```bash
     pip install -r requirements.txt
     ```
-    *(Based on our previous conversation about installing `requirements.txt` in Colab)*
+
 
 3.  **Set up environment variables:**
     This project likely requires an OpenAI API key. You might need to create a `.env` file in the project root and add your API key:
     ```
     OPENAI_API_KEY=YOUR_OPENAI_API_KEY
     ```
-    *(Implied by the loading of environment variables in source [4] and the use of `OpenAIEmbeddings` and `ChatOpenAI` in sources [2, 4])*
+ 
 
